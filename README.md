@@ -10,6 +10,9 @@ Coffee Shop is a responsive web application developed as a frontend portfolio pr
 
 The objective of this project was to strengthen my React development skills while applying responsive design principles, reusable components, animations, and interactive UI elements.
 
+
+The reservation form demonstrates frontend validation and UI interactions. It does not currently store reservations on a backend.
+
 ---
 
 ## Features
