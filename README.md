@@ -1,4 +1,4 @@
-# Coffee Shop
+# Coffee Shop website
 
 ![React](https://img.shields.io/badge/React-18-blue)
 ![Vite](https://img.shields.io/badge/Vite-5-purple)
@@ -38,6 +38,12 @@ The objective of this project was to strengthen my React development skills whil
 - React Leaflet
 - React Hot Toast
 - React Icons
+
+---
+
+## Live Demo
+
+https://coffee-shop-sable-two.vercel.app/
 
 ---
 
@@ -116,25 +122,6 @@ Possible enhancements for future versions include:
 - User authentication
 - Multi-language support
 - Admin dashboard for managing reservations and menu items
-
----
-
-## Screenshots
-
-Replace the placeholder images below with screenshots of the application.
-
-- Home Page
-- Menu Section
-- Gallery
-- Reservation Form
-- Mobile View
-
----
-
-## License
-
-This project was developed for learning purposes and to showcase frontend development skills.
-
 
 ---
 
