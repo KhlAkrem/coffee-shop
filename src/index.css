@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  background-color: #0f0800;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background-color: #0f0800;
+}
