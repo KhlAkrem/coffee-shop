@@ -46,7 +46,7 @@ The objective of this project was to strengthen my React development skills whil
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/coffee-shop.git
+git clone https://github.com/KhlAkrem/coffee-shop.git
 ```
 
 Navigate to the project folder:
