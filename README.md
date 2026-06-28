@@ -1,145 +1,150 @@
 # Coffee Shop
 
-![Live Demo](https://img.shields.io/badge/live-demo-brightgreen)
-![Tech Stack](https://img.shields.io/badge/tech%20stack-react%20%7C%20vite%20%7C%20tailwind%20%7C%20framer%20motion-blue)
+![React](https://img.shields.io/badge/React-18-blue)
+![Vite](https://img.shields.io/badge/Vite-5-purple)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3-38BDF8)
 
-A coffee shop website built as a portfolio project. This website showcases a luxurious, culturally-specific design with smooth animations and a professional agency-quality feel.
+## About
 
-## Overview
+Coffee Shop is a responsive web application developed as a frontend portfolio project. The website represents a fictional café located in Algiers and focuses on providing a modern and engaging user experience.
 
-Coffee Shop is a fictional upscale establishment located in Algiers, Algeria, blending Algerian hospitality with French café culture. The website features:
+The objective of this project was to strengthen my React development skills while applying responsive design principles, reusable components, animations, and interactive UI elements.
 
-- Strikhero section with animated typography and floating cards
-- Interactive menu with filterable categories
-- Beautiful gallery with lightbox
-- Customer testimonials carousel
-- Interactive map with location details (Didouche Mourad, Algiers)
-- Reservation form with simulated submission (no backend required)
-- Fully responsive design
-- Smooth scroll animations and micro-interactions
-- Authentic story section featuring the coffee shop's origin story with actual photography
-
-## Tech Stack
-
-| Technology | Purpose |
-|------------|---------|
-| **React 18** | UI library |
-| **Vite** | Build tool and dev server |
-| **Tailwind CSS** | Styling utility-first framework |
-| **Framer Motion** | Animations and transitions |
-| **React Router** | Client-side routing |
-| **React-Leaflet** | Interactive maps |
-| **React Hot Toast** | Notification system |
-| **React Icons** | Icon library |
+---
 
 ## Features
 
-- ✅ Fixed/sticky navbar with scroll-based background transition
-- ✅ Hero section with letter-by-letter animated headline
-- ✅ Floating cards in hero (Today's Special, Hours, Rating)
-- ✅ Two-column About section with authentic coffee shop photography
-- ✅ Filterable menu tab with smooth transitions
-- ✅ Masonry-style gallery with lightbox modal
-- ✅ Auto-playing testimonials carousel featuring guest reviews
-- ✅ Interactive map with custom marker showing exact location in Algiers
-- ✅ Reservation form with validation and simulated submission (no backend needed)
-- ✅ Fully responsive design (mobile-first)
-- ✅ Smooth scroll animations on all sections
-- ✅ Custom gold-accent color scheme and warm shadows
-- ✅ Dynamic opening hours with "Open Now" status
-- ✅ Toast notifications for form submission
-- ✅ SEO-friendly semantic HTML structure
+- Responsive design for desktop, tablet, and mobile devices
+- Sticky navigation with smooth scrolling
+- Animated hero section
+- Interactive menu with category filtering
+- Image gallery with lightbox preview
+- Customer testimonials carousel
+- Interactive map showing the café location
+- Reservation form with client-side validation
+- Dynamic opening hours indicator
+- Toast notifications for user actions
+- Smooth animations and transitions using Framer Motion
 
-## Setup Instructions
+---
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/coffee-shop.git
-   cd coffee-shop
-   ```
+## Technologies Used
 
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
+- React 18
+- Vite
+- Tailwind CSS
+- Framer Motion
+- React Router
+- React Leaflet
+- React Hot Toast
+- React Icons
 
-3. **Start the development server**
-   ```bash
-   npm run dev
-   ```
+---
 
-4. **Build for production**
-   ```bash
-   npm run build
-   ```
+## Installation
 
-## Environment Variables
+Clone the repository:
 
-No environment variables are required for this project. The reservation form uses a simulated submission for portfolio purposes.
+```bash
+git clone https://github.com/yourusername/coffee-shop.git
+```
 
-## Deployment
+Navigate to the project folder:
 
-### Vercel (Recommended)
+```bash
+cd coffee-shop
+```
 
-1. Push your code to a GitHub repository
-2. Import the project in Vercel
-3. Vercel will automatically detect the Vite React project and deploy it
+Install the dependencies:
 
-### Netlify
+```bash
+npm install
+```
 
-1. Push to GitHub
-2. Connect repository to Netlify
-3. Set build command: `npm run build`
-4. Set publish directory: `dist`
-5. No environment variables needed
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Build the project for production:
+
+```bash
+npm run build
+```
+
+---
 
 ## Project Structure
 
 ```
 src/
-  components/
-    layout/       # Navbar, Footer, ScrollToTop
-    ui/           # Reusable UI components (Button, Badge, etc.)
-    sections/     # Page sections (Hero, About, Menu, etc.)
-  data/           # Data files (menu, reviews, gallery)
-  hooks/          # Custom React hooks
-  utils/          # Utility functions and constants
-  pages/          # Page components (Home.jsx)
-  assets/         # Static assets (images, icons)
-  public/         # Public assets (ourStory.jpg, logos)
+├── assets/
+├── components/
+│   ├── layout/
+│   ├── sections/
+│   └── ui/
+├── data/
+├── hooks/
+├── pages/
+├── utils/
+└── App.jsx
 ```
-
-## Design System
-
-### Colors
-- Background Primary: `#0f0800`
-- Background Secondary: `#1a1000`
-- Surface: `#221500`
-- Gold Accent: `#c9a84c`
-- Gold Light: `#e8c97a`
-- Text Primary: `#f5efe6`
-- Text Secondary: `#b0956e`
-- Text Muted: `#7a6248`
-- Success: `#4ade80`
-- Error: `#f87171`
-
-### Typography
-- Display/Headings: [Playfair Display](https://fonts.google.com/specimen/Playfair+Display)
-- Body: [Inter](https://fonts.google.com/specimen/Inter)
-- Accent: [Cormorant Garamond](https://fonts.google.com/specimen/Cormorant+Garamond)
-
-## Screenshots
-
-![Hero Section](https://via.placeholder.com/800x450?text=Hero+Section)
-![Menu Section](https://via.placeholder.com/800x450?text=Menu+Section)
-![Gallery Section](https://via.placeholder.com/800x450?text=Gallery+Section)
-![Reservation Form](https://via.placeholder.com/800x450?text=Reservation+Form)
-![About Section](https://via.placeholder.com/800x450?text=About+Section+with+Story)
-
-## License
-
-This project is for educational and portfolio purposes only.
 
 ---
 
-Made with ❤️ by [Your Name]
+## Skills Demonstrated
+
+This project allowed me to practice and improve the following skills:
+
+- Building reusable React components
+- Creating responsive layouts with Tailwind CSS
+- Implementing client-side routing
+- Adding smooth animations with Framer Motion
+- Integrating interactive maps using React Leaflet
+- Organizing a React project with a scalable folder structure
+- Improving user experience through clean UI and visual feedback
+
+---
+
+## Future Improvements
+
+Possible enhancements for future versions include:
+
+- Backend integration for reservation management
+- Online ordering functionality
+- User authentication
+- Multi-language support
+- Admin dashboard for managing reservations and menu items
+
+---
+
+## Screenshots
+
+Replace the placeholder images below with screenshots of the application.
+
+- Home Page
+- Menu Section
+- Gallery
+- Reservation Form
+- Mobile View
+
+---
+
+## License
+
+This project was developed for learning purposes and to showcase frontend development skills.
+
+
+---
+
+## Key Concepts
+
+- React Functional Components
+- React Hooks
+- Component-Based Architecture
+- Responsive Web Design
+- State Management
+- Client-Side Routing
+- Reusable UI Components
+- Animation and User Experience
